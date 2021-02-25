@@ -1,8 +1,14 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://localhost:4608"
+
 management:
-    endpoint:
-        health:
-            show-details: always
-    endpoints:
-        web:
-            exposure:
-                include: '*'
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
